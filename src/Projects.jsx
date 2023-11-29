@@ -1,5 +1,7 @@
 import React from "react";
-import image from "../src/assets/Logo.jpg";
+import image from "../src/assets/food.jpg";
+import app from "../src/assets/app.jpg";
+import quiz from "../src/assets/quiz.png";
 import movie from "../src/assets/movie.jpg";
 import ProjectCard from "./components/ProjectCard";
 
@@ -28,20 +30,16 @@ const Projects = () => {
 
             <ProjectCard
               cover={image}
-              type="Machine Learning Project"
-              title="Movie Recommendation System"
+              type="React Project"
+              title="Food Ordering System"
             />
 
             <ProjectCard
-              cover={image}
-              type="Machine Learning Project"
-              title="Movie Recommendation System"
+              cover={app}
+              type="Simple Project"
+              title="Movies Recommendation App"
             />
-            <ProjectCard
-              cover={image}
-              type="Machine Learning Project"
-              title="Movie Recommendation System"
-            />
+            <ProjectCard cover={quiz} type="React Project" title="Quiz" />
             <ProjectCard
               cover={image}
               type="Machine Learning Project"

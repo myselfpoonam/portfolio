@@ -29,25 +29,25 @@ const About = () => {
               HTML
             </h2>
             <div className="w-[full] xl:w-[800px] md:mt-4 xl:h-3 bg-gray-500 rounded-xl animate__animated animate__fadeIn">
-              <div className=" w-full bg-blue-500 h-2 xl:h-3  rounded-md"></div>
+              <div className=" w-full xl:w-[800px] bg-blue-500 h-2 xl:h-3  rounded-md"></div>
             </div>
             <h2 className="text-md mt-2 md:mt-4 font-mediumanimate__animated animate__fadeIn">
               Tailwind Css
             </h2>
             <div className="w-[full] xl:h-3 bg-gray-500  rounded-xl animate__animated animate__fadeIn">
-              <div className=" w-52 bg-blue-500 h-2 md:mt-4 xl:h-3  rounded-md"></div>
+              <div className=" xl:w-[700px] w-52 bg-blue-500 h-2 md:mt-4 xl:h-3  rounded-md"></div>
             </div>
             <h2 className="text-md mt-2 md:mt-4 animate__animated animate__fadeIn">
               JavaScripts
             </h2>
             <div className="w-[full]  bg-gray-500 md:mt-4 rounded-xl animate__animated animate__fadeIn">
-              <div className=" w-44 bg-blue-500 h-2 xl:h-3 rounded-md"></div>
+              <div className=" w-44 xl:w-[600px] bg-blue-500 h-2 xl:h-3 rounded-md"></div>
             </div>
             <h2 className="text-md mt-2 md:mt-4 animate__animated animate__fadeIn">
               React
             </h2>
             <div className="w-[full] md:mt-4 bg-gray-500 rounded-xl animate__animated animate__fadeIn">
-              <div className=" w-48 bg-blue-500 h-2 xl:h-3 rounded-md"></div>
+              <div className=" w-48 xl:w-[700px] bg-blue-500 h-2 xl:h-3 rounded-md"></div>
             </div>
           </div>
         </div>
